@@ -1,0 +1,15 @@
+{
+  "name": "GIPHY API TEST",
+  "short_name": "GIPHY_API",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A test using Giphy API to display images",
+  "lang": "en-US",
+  "theme_color": "#ff0000",
+    "icons": [{
+   "src": "images/giphy.png",
+   "sizes": "512x512",
+   "type": "image/png"
+ }]
+  }

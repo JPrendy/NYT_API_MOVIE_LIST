@@ -1,0 +1,139 @@
+/*James Prendergast CSS file */
+
+
+/*this is the tag for the body where we are setting the background colour */
+body{
+background-color: #f2f2f2;
+}
+
+
+/*this is to define the height and width of every image created*/
+  img {
+    height: 200px;
+    width:  200px;
+  }
+
+/*when an image is hovered over the height and the width will increase*/
+
+
+
+/*this calls all divs to float left, this will help when displaying all the images
+so they wont take up huge height of the screen*/
+div{
+  float: left;
+  padding-bottom: 40px;
+}
+
+/*this is call to all hyperlinks where they will move to better aligned with
+the gifs*/
+a {
+     position: relative;
+     right:200px;
+     font-size: 20px;
+     top:20px;
+}
+
+/*this makes it so all the links are colored blank and dont have an underline when pressed*/
+a:link {
+text-decoration: none;
+color:black;
+}
+
+/*there is underline when hovered over to provide feedback to the user*/
+a:hover{
+text-decoration: underline;
+color:black;
+ font-size: 20px;
+}
+
+
+/*this is for all hyper links that are visited*/
+a:visited {
+text-decoration: none;
+color:black;
+}
+
+/*this sets the font style all around the webpage to "Roboto SLab" , serif */
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*this is to style the button to make them more visually appearing and responsive
+to the user*/
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: #80bfff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+/*when you hover over the button the background color will change*/
+button:hover {
+  background-color:  #66b3ff;
+}
+
+/*when the button is pressed, some of the appearance of the button will
+change to show evident feedback*/
+button:active {
+  background-color:  #66b3ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*the buttons will become smaller when on a smaller screen such as mobile*/
+@media screen and (max-width: 400px) {
+button{
+  font-size: 14px;
+    padding: 5px 15px;
+    width: 100%;
+  }
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    padding-bottom:10px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    font-size: 20px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*this is the css to chnage how the footer to appear, the footer is brought down
+a fair bit to leave room for the images, the margin will adjust when the images are called*/
+.footer {
+  margin-top: 500px;
+  width: 100%;
+  color:white;
+  background-color:#333;
+  text-align: center;
+}
