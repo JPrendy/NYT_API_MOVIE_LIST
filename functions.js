@@ -8,6 +8,7 @@ for ( var k=10; k>=1; k--) {
   var page3 = document.createElement("a");
   var pagelink = document.createTextNode(k);
   page3.appendChild(pagelink);
+  page3.setAttribute('id', k+100);
   page3.title = "link to giphy images";
   page3.href = "index.html?page="+k;
   document.getElementById("links").appendChild(page3);

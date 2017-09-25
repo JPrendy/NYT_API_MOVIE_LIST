@@ -24,11 +24,16 @@ div{
   padding-bottom: 40px;
 }
 
+#101, #102, #103, #104, #105, #106, #107, #108, #109, #110{
+	float:right;
+	position: fixed;
+	
+}
+
 /*this is call to all hyperlinks where they will move to better aligned with
 the gifs*/
 a {
      position: relative;
-     right:200px;
      font-size: 20px;
      top:20px;
 }
