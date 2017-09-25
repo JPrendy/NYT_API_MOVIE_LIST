@@ -1,14 +1,14 @@
 {
-  "name": "GIPHY API TEST",
-  "short_name": "GIPHY_API",
+  "name": "New York Times API TEST",
+  "short_name": "NYT_API",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "A test using Giphy API to display images",
+  "description": "A test using New York Times API to display the latest movie reviews",
   "lang": "en-US",
   "theme_color": "#ff0000",
     "icons": [{
-   "src": "images/giphy.png",
+   "src": "images/NYT.png",
    "sizes": "512x512",
    "type": "image/png"
  }]
