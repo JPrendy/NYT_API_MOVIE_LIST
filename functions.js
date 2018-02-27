@@ -1,4 +1,6 @@
 /*jshint esversion: 6 */
+//for more help, go to this link https://www.w3schools.com/jquery/ajax_get.asp
+
 //this function is called when the web page is loaded
 window.onload = function any_function_name()
 {
@@ -66,7 +68,7 @@ can perform pagination and return the correct set of images*/
        for(var i=0; i<20; i++){
          /*this returns the gif files from the giphy api link
          it goes through JSON objects structures to find the images associated with the buttons*/
-
+		//data - contains the resulting data from the request
 
       var text = `${data.results[i].multimedia.src}`;
       	var link = `${data.results[i].link.url}`;
